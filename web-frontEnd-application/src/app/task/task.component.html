@@ -17,6 +17,7 @@
     </form>
 
     <div class="table-responsive">
+        @if (tasks.length > 0) {
         <table>
             <thead>
                 <tr>
@@ -43,5 +44,11 @@
                 }
             </tbody>
         </table>
+    }@else {
+        <!-- <ng-template #noTasks> -->
+            <div class="no-tasks">No tasks available</div>
+        <!-- </ng-template> -->
+    }
+        
     </div>
 </div>

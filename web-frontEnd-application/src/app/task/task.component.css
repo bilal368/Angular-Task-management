@@ -103,6 +103,14 @@ button.delete:hover {
     background-color: #b21f2d;
 }
 
+.no-tasks {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+
 /* Media queries for responsiveness */
 @media (max-width: 600px) {
     .task-container {
